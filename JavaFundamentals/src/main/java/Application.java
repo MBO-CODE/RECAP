@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Test {
+public class Application {
     public static void main(String[] args) {
 
 
@@ -21,5 +21,13 @@ public class Test {
 
         System.out.println("created new branch");
 
+
+        Animal animal = new Cat();
+        Animal.walk();
+        System.out.println(animal.n);
+
+        System.out.println(10 * 20 + "Javatpoint");
+        System.out.println("Javatpoint" + 10 * 20);
+        System.out.println("Javatpoint" + 10 + 20);
     }
 }
